@@ -5,7 +5,8 @@ body{
 }
 .header{
     position: relative;
-    height:8vw;
+    height:11%;
+    border:solid;
     width:100%;
     display: flex;
     flex-direction:row;
@@ -78,6 +79,7 @@ body{
     display:flex;
     justify-content: space-between;
     position: relative;
+    border:solid;
 }
 .invisible1{
     height:fit-content;
@@ -286,6 +288,7 @@ body{
     font-family:Poppin;
     src:url('font-family/Poppins-Light.ttf')
 }
-.blog{
+.footer{
     width:100%;
+    margin-top:4vw;
 }
