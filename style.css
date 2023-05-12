@@ -129,7 +129,7 @@ body{
 }
 @font-face {
     font-family: Alice;
-    src: url('font-family/Alice-Regular.ttf');
+    src: url('https://fonts.google.com/specimen/Alice?query=alice');
 }
 .main-page{
     width:100%;
@@ -286,7 +286,7 @@ body{
 }
 @font-face{
     font-family:Poppin;
-    src:url('font-family/Poppins-Light.ttf')
+    src:url('https://fonts.google.com/specimen/Poppins?query=poppins')
 }
 .footer{
     width:100%;
