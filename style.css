@@ -6,13 +6,12 @@ body{
 .header{
     position: relative;
     height:11%;
-    border:solid;
     width:100%;
     display: flex;
     flex-direction:row;
     align-items: center;
     justify-content: space-between;
-    background-color: white;
+    background-color: rgb(248, 248, 248);
 }
 .logo{
     max-width:6vw;
@@ -21,30 +20,30 @@ body{
 .menu-bar{
     display: flex;
     align-items: center;
-    width:34vw;
+    width:36vw;
     height:4vw;
-    margin-right:1vw;
-}
+    justify-content: space-between;
+}   
 .menu-bar div{
-    margin-right:3.2vw;
     font-size:1.4vw;
+    width:fit-content;
 }
 .bag{
     height:2.8vw;
     width:3vw;
-    margin-right: 1vw;
 }
 .search-bar{
     position: relative;
     width:25vw;
     height:2.5vw;
-    border:solid;
     border-color: #ECECEC;
     background-color: #ECECEC;
     border-radius: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-right:2vw;
+    margin-left:3.2vw;
 }
 .searchh{
     width:20vw;
@@ -73,13 +72,29 @@ body{
 .search-bar button:hover{
     cursor: pointer;
 }
+.login-sign{
+    display:flex;
+    width:28vw;
+    height:3.2vw;
+    align-items: center;
+    justify-content: end;
+}
+.login{
+    font-size:1.3vw;
+    margin-right:1vw;
+    font-family:Monterrat;
+} 
+.profile{
+    height:3vw;
+    width:3.5vw;
+    margin-right:1vw;
+}
 .home{
     height:45vw;
     width:100%;
     display:flex;
     justify-content: space-between;
     position: relative;
-    border:solid;
 }
 .invisible1{
     height:fit-content;
@@ -102,7 +117,7 @@ body{
     border-radius:6px;
     margin-top:3%;
     border-style: none;
-    font-size:1vw;
+    font-size:1.5vw;
     font-family: Alice;
 }
 .button1:hover{
@@ -133,7 +148,7 @@ body{
 }
 .main-page{
     width:100%;
-    height:270vw;
+    height:298vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -157,6 +172,8 @@ body{
     background-color:rgb(255, 253, 253);
     color:black;
     box-shadow: 0 2px 2px 2px rgba(129, 129, 129, 0.514);
+    font-size:1.5vw;
+    font-family:Poppin;
 }
 .page:hover{
     cursor: pointer;
@@ -288,7 +305,91 @@ body{
     font-family:Poppin;
     src:url('https://fonts.google.com/specimen/Poppins?query=poppins')
 }
+
+.blog{
+    width:70%;
+    height:auto;
+    margin-top:5vw;
+}
+.blog-info{
+    width:90%;
+    height:40vw;
+    margin-top:4vw;
+    display:flex;
+    align-items: center;
+}
+.a1{
+    width:8vw;
+}
+.a2{
+    width:8vw;
+}
+.arrow1,.arrow2{
+    background-color:white;
+    border:none;
+}
+.arrow1:hover{
+    cursor:pointer;
+}
+.arrow2:hover{
+    cursor:pointer;
+}
+.blog1{
+    position: relative;
+    border:none;
+    width:30vw;
+    height:84%;
+    margin-right:6vw;
+    margin-left:2vw;
+    background-color:rgb(255, 253, 253);
+    box-shadow: 0 2px 2px 2px rgba(129, 129, 129, 0.514);
+    border-radius:10px;
+}
+.blog2{
+    border:none;
+    width:30vw;
+    height:84%;
+    margin-right:2vw;
+    background-color:rgb(255, 253, 253);
+    box-shadow: 0 2px 2px 2px rgba(129, 129, 129, 0.514);
+    border-radius:10px;
+}
+.blog-product1{
+    width:90%;
+    height:auto;
+    margin-top:1vw;
+    margin-left: 1.55vw;
+}
+.huhu1 ,.huhu2{
+    width:100%;
+    text-align: center;
+    margin-top:1vw;
+}
+.huhu2{
+    font-size: 1.3vw;
+}
+.huhu1{
+    font-size:2vw;
+}
+.cry1{
+    right:2px;
+    bottom:10px;
+    margin-top: 3vw;
+    border:none;
+    background-color: white;
+    margin-left:16vw;
+}
+.cry1:hover{
+    cursor: pointer;
+}
+.cry2{
+    width:13vw;
+}
 .footer{
     width:100%;
-    margin-top:4vw;
+    margin-top:1vw;
+}
+@font-face{
+    font-family:Monterrat;
+    src:url('https://fonts.google.com/specimen/Montserrat?query=mon')
 }
