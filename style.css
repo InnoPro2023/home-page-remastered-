@@ -4,14 +4,39 @@ body{
     background-color: rgb(255, 255, 255);
 }
 .header{
-    position: relative;
-    height:11%;
-    width:100%;
+    position: fixed;
+    top:0;  
+    height:17%;
+    width:100vw;
     display: flex;
     flex-direction:row;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(248, 248, 248);
+    background-color: rgba(188, 183, 183, 0.5); 
+    z-index:1;
+}
+.open-cart{
+    position: fixed;
+    background-color:rgb(49, 48, 48,0.9); 
+    height:100%;
+    border:solid;
+    right:0;
+    width:26vw;
+    z-index:2;
+    top:0;
+}
+.put-product{
+    border:solid;
+    color:white;
+    height:74%;
+    max-height:74%;
+    margin-top:1vw;
+    overflow-y: auto;
+}
+.word1{
+    text-align:center;
+    font-size:2vw;
+    margin-top:2vw;
 }
 .logo{
     max-width:6vw;
@@ -42,14 +67,21 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-right:2vw;
     margin-left:3.2vw;
 }
 .search{
     width:20vw;
-    margin-left:1vw;
+    margin-left:2vw;
     border:none;
     font-size:1.1vw;
+    background-color: #ECECEC;
+}
+.searchh{
+    margin-left:1vw;
+    width:18vw;
+    height:1.4vw;
+    font-size:1.3vw;
+    border:none;
     background-color: #ECECEC;
 }
 .searchh:focus{
@@ -78,6 +110,7 @@ body{
     height:3.2vw;
     align-items: center;
     justify-content: end;
+    margin-right:4vw;
 }
 .login{
     font-size:1.3vw;
@@ -95,6 +128,7 @@ body{
     display:flex;
     justify-content: space-between;
     position: relative;
+    margin-top:7vw;
 }
 .invisible1{
     height:fit-content;
